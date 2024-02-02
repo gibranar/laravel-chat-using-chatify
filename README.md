@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# How To Use The Laravel
+
+1. git clone https://github.com/gibranar/laravel-chat-using-chatify.git
+2. composer update
+3. cp .env.example .env
+4. php artisan key:generate
+5. php artisan migrate:fresh 
+6. Next, do the "How To Use The Chatify" step
+
+# How To Use The Chatify
+
+1. Open this [pusher](https://dashboard.pusher.com/accounts/sign_up) and create account
+2. Create App and fill the input form
+3. Go to "App Settings" on the bottom left corner
+4. Make sure that "Enable client events" is on
+5. Change the APP_URL on .env to "http://127.0.0.1:8000"
+6. run "php artisan serve" on terminal
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
